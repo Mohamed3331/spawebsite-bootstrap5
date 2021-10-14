@@ -1,0 +1,149 @@
+@media (max-width: 1030px) {
+  .banner_content h4 {
+    padding-top: 5rem;
+  }
+
+  .banner_content h2 {
+    font-size: 2.3rem;
+  }
+
+  .bg-hero {
+    min-height: 510px;
+  }
+
+  .main-btn {
+    font-size: 0.8rem;
+  }
+
+  .section-head {
+    margin-bottom: 0;
+  }
+
+  .section-head p {
+    margin-bottom: 1.5rem;
+  }
+
+  .gallery .section-head p {
+    margin-bottom: 0;
+  }
+
+  .main-wrap {
+    padding: 32px 0px 40px;
+  }
+
+  .filter-tabs {
+    padding: 1rem 0 0;
+  }
+
+  .filterbox {
+    padding: 30px 15px;
+  }
+
+  .content {
+    grid-gap: 20px;
+  }
+
+  
+}
+
+@media (max-width: 992px) {
+  .menu-toggle {
+    position: relative;
+  }
+
+  .menu-toggle span {
+    width: 2rem;
+    height: 0.2rem;
+    display: block;
+    background: var(--primary-color);
+    margin: 0.35rem;
+    transition: all 0.3s;
+  }
+
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.2rem;
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    display: none;
+  }
+
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -0.2rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .features {
+    clip-path: polygon(50% 1%, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .shot-thumbnail {
+    margin-top: 20px;
+  }
+
+  .filter-tabs {
+    flex-wrap: wrap;
+  }
+
+  .filter-sort {
+    width: 100%;
+  }
+
+  .navigation {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .navigation a {
+    white-space: nowrap;
+  }
+
+  .service-item {
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .content {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #8b8b8b;
+    border-radius: 20px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 56, 205);
+    border-radius: 50px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 56, 205);
+  }
+  
+  .footer-widget-title {
+    margin: 15px 0px;
+  }
+}

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.1.3 -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Plugins CDN Links -->
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- Own CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Beauty SPA</title>
+</head>
+
+<body>
+
+    <div id="backToTop"></div>
+
+    <!-- Header Section -->
+    <section class="header stick-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <span class="logo">
+                            <img src="assets/logo-7.png " alt="">
+                        </span>
+                    </a>
+                    <button class="navbar-toggler menu-toggle" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#price">Prices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery">Gallery</a>
+                            </li>`
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="search_bar ipad-d-none toggle-overlay">
+                                <span class="d-none d-lg-block">
+                                    <a href="#">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </span>
+                                <span class="d-lg-none">
+                                    <a href="#">Search</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="search-overlay">
+            <div class="outer-class toggle-overlay">
+                <a class="close">
+                    <span></span>
+                </a>
+            </div>
+
+            <form method="get" class="fullscreen-searchform" action='#'>
+                <input class="search-box" type="text" placeholder="Search...">
+                <i class="fa fa-search fullscreen-search-icon"></i>
+            </form>
+        </div>
+    </section>
+    <!-- Header Section -->
+
+    <!-- Banner Section -->
+    <section id="home" class="bg-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="banner_content">
+                        <h4>Welcome to SPA Care</h4>
+                        <h2>Beauty & SPA Wellness</h2>
+                        <p>The Spa at Sun Valley is a serene oasis all the exciting activites and quality serivce, our
+                            Iconic valley has deleivered for decades</p>
+                        <button class="main-btn mb-3">
+                            Register Appointment
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section -->
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head">
+                <h4>
+                    <span>Our</span>
+                    Services
+                </h4>
+            </div>
+
+            <div class="row">
+                <div class="service-item col ">
+                    <div class="card" style="width: 12rem;">
+                        <img src="./Assets/service01.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Oil Massage</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
+                            <p><strong>$57.99</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item col">
+                    <div class="card" style="width: 12rem;">
+                        <img src="./Assets/service02.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Skin Care</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
+                            <p><strong>$57.99</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item col">
+                    <div class="card" style="width: 12rem;">
+                        <img src="./Assets/service03.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Natural Relaxations</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
+                            <p><strong>$57.99</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item col">
+                    <div class="card" style="width: 12rem;">
+                        <img src="./Assets/service04.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nails Design</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
+                            <p><strong>$57.99</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Services Section -->
+
+    <!-- Features Section -->
+    <div id="features" class="features">
+        <div class="container py-5">
+            <div class="row">
+                <div class="section-head col-sm-12">
+                    <h4><span class="text-light">Our</span> Features</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis porro, a cum eum vero
+                        sequi quasi nihil earum sapiente. Temporibus, ducimus mollitia excepturi perspiciatis voluptatem
+                        sit iusto maiores quas.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="features-box text-center">
+                        <div class="feature-icon">
+                            <img src="./Assets/feature-icon01.png" alt="f">
+                        </div>
+                        <h4>Hair Expert</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="features-box text-center">
+                        <div class="feature-icon">
+                            <img src="./Assets/feature-icon02.png" alt="f">
+                        </div>
+                        <h4>Stone Massage</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="features-box text-center">
+                        <div class="feature-icon">
+                            <img src="./Assets/feature-icon03.png" alt="f">
+                        </div>
+                        <h4>Nail Care</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="features-box text-center">
+                        <div class="feature-icon">
+                            <img src="./Assets/feature-icon04.png" alt="f">
+                        </div>
+                        <h4>Aromatherapy Nature</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Section -->
+
+    <!-- Pricing Section -->
+    <div id="price" class="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-sm-12 mt-md-5">
+                    <h4><span>Our </span>Pricing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugit recusandae accusamus nisi.
+                    </p>
+                </div>
+
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card card-pricing card1 text-center mb-4">
+                        <h3>Silver Package</h3>
+                        <div class="bg-transparent card-header pt-4 border-0">
+                            <h1 class="text-center price">
+                                $
+                                <span>50</span>
+                                <span class="h6 text-muted ml-2">/per month</span>
+                            </h1>
+                        </div>
+                        <div class="card-body pt-0">
+                            <ul class="list-unstyled mb-4">
+                                <li>Nail Cutting & Styling</li>
+                                <li>Hot Hair Coloring</li>
+                                <li>Hot Oil Massage</li>
+                                <li>Body Wraps</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-secondary mb-4">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card card-pricing card2 text-center mb-4">
+                        <h3>Gold Package</h3>
+                        <div class="bg-transparent card-header pt-4 border-0">
+                            <h1 class="text-center price">
+                                $
+                                <span>130</span>
+                                <span class="h6 text-muted ml-2">/per month</span>
+                            </h1>
+                        </div>
+                        <div class="card-body pt-0">
+                            <ul class="list-unstyled mb-4">
+                                <li>Nail Cutting & Styling</li>
+                                <li>Hot Hair Coloring</li>
+                                <li>Hot Oil Massage</li>
+                                <li>Body Wraps</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-secondary mb-4">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4">
+                    <div class="card card-pricing card3 text-center mb-4">
+                        <h3>Platinum Package</h3>
+                        <div class="bg-transparent card-header pt-4 border-0">
+                            <h1 class="text-center price">
+                                $
+                                <span>200</span>
+                                <span class="h6 text-muted ml-2">/per month</span>
+                            </h1>
+                        </div>
+                        <div class="card-body pt-0">
+                            <ul class="list-unstyled mb-4">
+                                <li>Nail Cutting & Styling</li>
+                                <li>Hot Hair Coloring</li>
+                                <li>Hot Oil Massage</li>
+                                <li>Body Wraps</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-secondary mb-4">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Section -->
+
+    <!-- Gallery Section -->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-sm-12">
+                    <h4><span>Image</span> Gallery</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minima sint rerum.</p>
+                </div>
+            </div>
+            <div class="filterbox">
+                <div class="filter-tabs">
+                    <div class="filter-sort">
+                        <div class="navigation pb-4">
+                            <a data-filter="all" class="gallery-button active">All</a>
+                            <a data-filter="Animation" class="gallery-button">Hair Cut</a>
+                            <a data-filter="Branding" class="gallery-button">Foot</a>
+                            <a data-filter="Illustration" class="gallery-button">Body</a>
+                            <a data-filter="Mobile" class="gallery-button">Massage</a>
+                            <a data-filter="Massage" class="gallery-button">Face Massage</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-wrap wrap-inner">
+                    <div id="content">
+                        <div class="main-full" id="main">
+                            <ol class="content">
+                                <li class="team shot-thumbnail Animation Illustration">
+                                    <div class="multi-shot with-actions">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery01.jpg" positionFromTop="200" data-title="Beauty-SPA"
+                                                class="dribble-link" data-lightbox="mygallery">
+                                                <img src="Assets/gallery01.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Animation Print Branding">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery02.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery02.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Animation Print Massage">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery03.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery03.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Animation Print Mobile">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery04.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery04.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Branding">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery05.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery05.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Animation Print Massage">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery06.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery06.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Animation Print Massage">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery07.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery07.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Animation Print Massage">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery08.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery08.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="team shot-thumbnail Animation Print Massage">
+                                    <div class="multi-shot">
+                                        <div class="dribble-img">
+                                            <a href="Assets/gallery09.jpg" data-title="Beauty-SPA"
+                                                class="dribble-link dribble-over" data-lightbox="mygallery">
+                                                <img src="Assets/gallery09.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Section -->
+
+    <!-- Footer Section -->
+    <div class="footer" id='contact'>
+        <footer>
+            <div class="footer_box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-widget">
+                                <div class="widget-about">
+                                    <p><img src="Assets/logo-8.png" alt=""></p>
+                                    <p class="pt-4 text-left px-lg-3">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus quidem
+                                        consequuntur, molestiae dolore earum maxime distinctio rem sapiente dignissimos
+                                        fugit tenetur laudantium porro iste quam eligendi nostrum reprehenderit, dolor
+                                        voluptatibus!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-widget">
+                                <div class="footer-menu">
+                                    <h4 class="footer-widget-title">Useful Links</h4>
+                                    <ul>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Career</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Services</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-widget">
+                                <div class="footer-menu">
+                                    <h4 class="footer-widget-title">Quick Links</h4>
+                                    <ul>
+                                        <li><a href="#">Nail Care</a></li>
+                                        <li><a href="#">Massage</a></li>
+                                        <li><a href="#">Hair Cut</a></li>
+                                        <li><a href="#">Waxing</a></li>
+                                        <li><a href="#">Make up</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-widget">
+                                <div class="footer-menu p-0 widget-about">
+                                    <div class="input-group">
+                                        <input type="text" name="news-letter" class="form-control"
+                                            placeholder="Your Email">
+                                        <span class="input-group-btn">
+                                            <button type="submit" class="site-button"><i
+                                                    class="fa fa-paper-plane-o"></i></button>
+                                        </span>
+                                    </div>
+                                    <ul class="contact-details pt-4">
+                                        <li>
+                                            <i class="fa fa-phone"></i>
+                                            <a href="#">784 154 091</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i>
+                                            <a href="#">Beautyspa@gmail.com</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="socialmedia-details pt-4">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright-text">
+                                <p>&copy; 2021
+                                    <a href="#">Beauty Spa</a>. All rights reserved. Created By
+                                    <a href="#">Mohamed Salem</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer Section -->
+
+    <div class="back-to-top">
+        <a href="#backtoTop"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+</body>
+
+<script src="js/jquery.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+<script src="https://kit.fontawesome.com/889d3c3f3d.js" crossorigin="anonymous"></script>
+
+<script src="js/lightbox.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<script src="js/index.js"></script>
+
+</html>
