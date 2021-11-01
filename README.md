@@ -4,8 +4,8 @@
 
 ## About The Project
 
-![Alt text](/img1.png?raw=true "Optional Title")
 ![Alt text](/img2.png?raw=true "Optional Title")
+![Alt text](/img1.png?raw=true "Optional Title")
 
 A website based on beauty center and spa services like massage, spa, etc.
 
